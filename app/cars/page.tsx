@@ -21,12 +21,15 @@ const cars: Car[] = [
 ];
 
 export default function Page() {
-  return (
-    <div>
-      <h1>Cars</h1>
-      {cars.map((car, index) => (
-        <Card key={index} car={car} />
-      ))}
-    </div>
-  );
-}
+    return (
+        <div>
+          <h1 className="text-2xl font-bold text-center my-4">Cars</h1>
+          <div className="flex flex-wrap justify-center gap-4">
+            {cars.map((car, index) => (
+              <Card key={index} car={car} />
+            ))}
+          </div>
+        </div>
+      );
+    }
+    
