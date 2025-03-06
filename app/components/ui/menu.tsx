@@ -4,7 +4,7 @@ import React from 'react'
 export function Menu() {
     return (
       <div>
-        <ul className='flex p-4 bg-blue-900 border-2 rounded-2xl m-4 border-blue-500'>
+        <ul className='flex justify-between p-4 bg-gray-900 border-2 rounded-2xl m-4 border-white-800'>
           <li className='flex p-4 hover:bg-blue-500 rounded-2xl'>
             <Link href="/">Home</Link>
           </li>
