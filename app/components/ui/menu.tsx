@@ -1,7 +1,6 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from 'next/link';
 
-export function Menu() {
+export default function Menu() {
     return (
       <div>
         <ul className='flex justify-between p-4 bg-gray-900 border-2 rounded-2xl m-4 border-white-800'>

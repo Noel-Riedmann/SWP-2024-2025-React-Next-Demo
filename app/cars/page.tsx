@@ -1,6 +1,5 @@
-import React from "react";
 import Card from "../components/ui/cars/Card";
-import { Car, Motor } from "../lib/types/types";
+import { Car } from "../lib/types/types";
 
 const cars: Car[] = [
   { name: "Audi", type: "A6", color: "Black", motor: { serialNumber: 1000001, hp: 231 } },

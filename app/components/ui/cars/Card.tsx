@@ -1,6 +1,6 @@
 "use client";
 import { Car } from "@/app/lib/types/types";
-import React, { useState } from "react";
+import { useState } from "react";
 
 type Props = { car: Car };
 
